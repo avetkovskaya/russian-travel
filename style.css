@@ -207,9 +207,109 @@
 .intro__title {
     max-width: 690px;
     margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    margin-top: 92px;
+    box-sizing: border-box;
 }
 
+@media screen and (max-width: 765px) {
+    .intro__title {
+  font-size: 32px;
+  line-height: 35px;
+  margin-top: 64px;
+  }
+
+  }
 .intro__text {
     max-width: 690px;
     margin-bottom: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
 }
+.intro__list {
+    max-width: 690px;
+    font-style: normal;
+    font-weight: normal;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0;
+    }
+    .intro__list-accent {
+        font-weight: bold;
+        }
+
+        .photo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            grid-gap: 16px;
+            margin: 0 auto; 
+            max-width: 1184px;
+            padding: 0 48px 92px;
+            }
+            
+            @media screen and (max-width: 1024px) {
+              .photo-grid {
+                grid-gap: 14px;
+              }
+            }
+            
+            @media screen and (max-width: 768px) {
+              .photo-grid {
+                 max-width: 720px;
+                 padding: 0 24px;
+                 grid-gap: 16px;
+              }
+            }
+            
+            @media only screen and (max-width: 425px) {
+              .photo-grid {
+                 padding: 0 16px;
+                 grid-gap: 12px;
+                 grid-template-columns: 1fr;
+                 }
+            }
+            .photo-grid__item {
+                max-width: 100%;
+                width: 100%;
+                }
+                .places {
+                    display: grid;
+                    align-items: end;
+                    margin: 0 auto;
+                    padding: 0 148px;
+                    max-width: 984px;
+                    
+                    }
+                    
+                    @media screen and (max-width: 1024px) {
+                      .places {
+                        padding: 0 48px;
+                      }
+                    }
+                    
+                    @media screen and (max-width: 768px) {
+                      .places {
+                        padding: 16px 24px;
+                        max-width: 720px;
+                        margin-bottom: 88px;
+                      }
+                    }
+                
+                    @media screen and (max-width: 640px) {
+                      .places {
+                        max-width: 592px;
+                      }
+                    }
+                    
+                    @media screen and (max-width: 320px) {
+                      .places {
+                        padding: 0;
+                      }
+                    }

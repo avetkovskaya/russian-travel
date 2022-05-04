@@ -5,11 +5,6 @@
 * CSS Grid Layout
 * CSS Flexbox
 
-### Используемые технологии верстки:
-* BEM Nested
-* CSS Grid Layout
-* CSS Flexbox
-
 <<<<<<< HEAD
 =======
 **Интро**

@@ -8,13 +8,13 @@
     left: 0;
     max-width: 100%;
     width: 100%;
-    min-height: 740px;
+    min-height: 700px;
     background: #2A2C2F;
-    background-position: center center;
     align-items: center;
     z-index: 1;
     text-decoration: none;
     color: white;
+    background-image: url('../../../images/cover-trains.jpg');
     } 
 
     @media screen and (max-width: 1024px) {

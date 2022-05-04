@@ -2,19 +2,17 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    background-size: cover;
     top: 0;
     left: 0;
-    max-width: 100%;
-    width: 100%;
     min-height: 700px;
     background-color: rgba(42, 44, 47, 0.3);
-    align-items: center;
     z-index: 1;
     text-decoration: none;
     color: white;
     background-image: url("../../../images/cover-trains.jpg");
+    align-items: center;
     } 
 
     @media screen and (max-width: 1024px) {
@@ -40,6 +38,8 @@
     .cover__overlay:before {
       content: "";
       position: absolute;
+      opacity: 0.3;
+      transition: 0.3s opacity;
       top: 0;
       left: 0;
       right: 0;

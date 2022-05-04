@@ -9,12 +9,12 @@
     max-width: 100%;
     width: 100%;
     min-height: 700px;
-    background: #2A2C2F;
+    background-color: rgba(42, 44, 47, 0.3);
     align-items: center;
     z-index: 1;
     text-decoration: none;
     color: white;
-    background-image: url('../../../images/cover-trains.jpg');
+    background-image: url("../../../images/cover-trains.jpg");
     } 
 
     @media screen and (max-width: 1024px) {

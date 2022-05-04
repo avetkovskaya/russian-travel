@@ -1,12 +1,3 @@
-@import url(./__grid-item/places__grid-item.css);
-@import url(./__grid-paragraph/places__grid-paragraph.css);
-@import url(./__image/places__image.css);
-@import url(./__link/places__link.css);
-@import url(./__paragraph/places__paragraph.css);
-@import url(./__place/places__place.css);
-@import url(./__title/places__title.css);
-@import url(./__url-heading/places__url-heading.css);
-
 .places {
     display: grid;
     align-items: end;

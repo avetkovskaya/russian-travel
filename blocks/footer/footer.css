@@ -1,9 +1,3 @@
-@import url(./__author/footer__author.css);
-@import url(./__line-item/footer__line-item.css);
-@import url(./__line-link/footer__line-link.css);
-@import url(./__line-links/footer__line-links.css);
-@import url(./__line/footer__line.css);
-
 .footer {
     max-width: 1184px;
     margin: 0 auto;

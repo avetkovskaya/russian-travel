@@ -9,7 +9,7 @@
     
     @media screen and (max-width: 640px) {
       .places__grid-item {
-      visibility: hidden;
+      visibility: collapse;
       display: none;
       }
     } 

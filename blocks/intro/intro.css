@@ -2,6 +2,23 @@
   max-width: calc(100%*984/1280);
   padding-bottom: 92px;
   margin: auto;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    margin-left: 48px;
+    padding-top: 92px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: calc(100% - 2 * 16px);
+    padding-top: 64px;
+  }
 }
 
 @media screen and (max-width:1200px) {

@@ -3,9 +3,7 @@
     line-height: 26px;
     max-width: 690px;
     height: 208px;
-    left: 148px;
-    top: 1331px;
-
+    padding: 40px 0 33px;
 }
 
 @media screen and (max-width:1000px) {
@@ -13,3 +11,16 @@
         max-width: 100%;
     }
 }
+
+@media screen and (max-width:1280px) {
+    .intro__text {
+        max-width: 100%;
+
+    }
+}
+@media screen and (max-width: 767px) {
+    .intro__text {
+      padding-bottom: 34px;
+    }
+  }
+  

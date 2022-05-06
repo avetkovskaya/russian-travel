@@ -1,5 +1,7 @@
 .header__links-list {
     padding: 0;
     display: flex;
+    margin-top: 0;
     margin-bottom: 0;
+    vertical-align: bottom;
     }

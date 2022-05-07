@@ -1,7 +1,6 @@
 .lead__image {
     width: 100%;
     min-height: 615px;
-    -webkit-max-logical-height: 615px;
     object-fit: contain;
     object-position: center;
     }

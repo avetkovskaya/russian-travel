@@ -3,5 +3,5 @@
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
-    vertical-align: bottom;
+    align-items: flex-start;
     }

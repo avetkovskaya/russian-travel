@@ -5,10 +5,11 @@
  padding: 0px;
 }
 
-@media screen and (min-width: 315px) {
+@media screen and (min-width: 255px) {
   .intro {
     width: 100%;
-    padding-top: 64px;
+    padding: 40px 16px 34px 16px;
+    margin: 0 auto;
   }
 }
 
@@ -17,17 +18,20 @@
     padding-top: 88px;
     padding-left: 24px;
     padding-right: 24px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .intro {
     padding-top: 92px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .intro {
     padding-left: 148px;
+    margin: 0 auto;
   }
 }

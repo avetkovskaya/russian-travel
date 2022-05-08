@@ -4,13 +4,13 @@
     grid-gap: 16px;
     margin: 0 auto;
     max-width: 1184px;
-    padding: 0 48px 92px;
+    padding: 92px 0px 92px 48px;
     }
     
     @media screen and (max-width: 1024px) {
       .photo-grid {
         grid-gap: 14px;
-        padding-top: 92px;
+        padding: 92px 0 0 48px;
       }
     }
     
@@ -25,10 +25,9 @@
     
     @media only screen and (max-width: 425px) {
       .photo-grid {
-         padding: 0 16px;
+         padding: 64px 16px 16px 0;
          grid-gap: 12px;
          grid-template-columns: 1fr;
-         padding-top: 64px;
          }
     }
     

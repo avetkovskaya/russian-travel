@@ -1,37 +1,27 @@
 .intro {
- margin: 0 auto;
- display: flex;
- flex-direction: column;
- padding: 0px;
+  width: calc(100% - 2 * 148px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 92px 0 0;
 }
 
-@media screen and (min-width: 255px) {
+@media screen and (max-width: 1279px) {
   .intro {
-    width: 100%;
-    padding: 40px 16px 34px 16px;
-    margin: 0 auto;
+    width: calc(100% - 2 * 48px);
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1023px) {
   .intro {
     padding-top: 88px;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin: 0 auto;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 767px) {
   .intro {
-    padding-top: 92px;
-    margin: 0 auto;
+    padding-top: 64px;
   }
 }
-
-@media screen and (min-width: 1280px) {
-  .intro {
-    padding-left: 148px;
-    margin: 0 auto;
-  }
-}
+ 
+ 

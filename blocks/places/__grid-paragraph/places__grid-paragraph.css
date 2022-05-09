@@ -1,10 +1,10 @@
 .places__grid-paragraph {
-    grid-column: 2;
-    }
-   
-        
-  @media screen and (max-width: 640px) {
-    .places__grid-paragraph {
-    grid-column: 1;
-    }
+  grid-area: paragraph;
+}
+
+@media screen and (max-width: 767px) {
+  .places__grid-paragraph {
+    width: calc(100% - 2 * 16px);
+    margin: 0 auto;
   }
+}

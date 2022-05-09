@@ -1,15 +1,13 @@
 .places__grid-item {
-    grid-row: 1;
-    grid-column: 2;
-    align-self: end;
-    margin-bottom: 48px;
-    max-width: 100%;
-    width: 100%;
-    }
-    
-    @media screen and (max-width: 640px) {
-      .places__grid-item {
-      visibility: collapse;
-      display: none;
-      }
-    } 
+  grid-area: link;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .places__grid-item {
+    padding-left: 16px;
+  }
+}
